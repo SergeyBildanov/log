@@ -7,7 +7,7 @@ let magician = new Magician();
 let daemon = new Daemon();
 
 daemon.stoned = true;
-magician.attackPoints = 5;
-daemon.attackPoints = 3;
-console.log(daemon.attackPoints);
-console.log(magician.attackPoints);
+magician.setAttack();
+daemon.setAttack();
+console.log(daemon.getAttacK(4));
+console.log(magician.getAttacK(4));
